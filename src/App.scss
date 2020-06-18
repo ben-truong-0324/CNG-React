@@ -1,0 +1,9 @@
+@import './scss/styles.scss';
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    @extend .container-fluid;
+}

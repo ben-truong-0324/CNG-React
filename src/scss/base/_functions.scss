@@ -1,0 +1,4 @@
+@function toRem($size) {
+    $remSize: $size / $base-size;
+    @return #{$remSize}rem;
+  }

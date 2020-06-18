@@ -1,0 +1,11 @@
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const HOME = '/home';
+export const ACCOUNT = '/account';
+export const ADMIN = '/admin';
+export const PASSWORD_FORGET = '/pw-forget';
+export const CONTACT_US = '/contact';
+export const DONORS = '/donors';
+export const RECIPIENTS = '/recipient'
+export const GROUP_PROFILE = '/profile';
+export const STATS = '/stats';
