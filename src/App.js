@@ -23,11 +23,13 @@ function App() {
         <Route path={ROUTES.ACCOUNT} component={Home} />
         <Route path={ROUTES.ADMIN} component={Home} />
       </Router>
-      <Button className="primary">Primary</Button>
-            <Button className="secondary">secondary</Button>
-            <Button>default</Button>
-            <Button className="disabled">disabled</Button>
-            <Button className="destructive">destructive</Button>
+      <Button variant="primary">Primary</Button>
+      <Button variant="secondary">secondary</Button>
+      <Button>default</Button>
+      <br/>
+      <Button variant="primary" disabled>primary</Button>
+      <Button variant="secondary" disabled>secondary</Button>
+      <Button variant="default" disabled>default</Button>
       <Footer />
     </div>
   );

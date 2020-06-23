@@ -1,0 +1,65 @@
+@import '../../scss/styles.scss';
+
+
+
+.btn {
+  font-family: $base-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: $base-size;
+  line-height: $base-lineHeight;
+  text-align: center;
+  width: 144px;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: $base-size/2 $base-size;
+  border:1px solid $black;
+
+  /* Style sub-classes */
+  &.primary {
+    color: #fff;
+    background: $primary-blue;
+    border: none;
+    &:hover {
+      color: #fff;
+      background: #2c4bb9;
+      border: none;
+    }
+    &:disabled {
+      background: rgba(62, 101, 240, 0.7);
+      cursor: default;
+    }
+  }
+
+  &.secondary {
+    color: $primary-blue;
+    border-color: $primary-blue;
+    &:hover{
+      color: $primary-blue;
+      background: #EAEEFF;
+    }
+    &:disabled{
+      background: #fff;
+      color:rgba(62, 101, 240, 0.7);
+      border-color:rgba(62, 101, 240, 0.7);
+      cursor: default;
+    }
+  }
+
+  &.default {
+    background: #fff;
+    color: $black;
+    border: 1px solid $black;
+    &:hover{
+      background: $gray;
+    }
+    &:disabled{
+      background: #fff;
+      border-color: rgba(34, 34, 34, 0.7);
+      cursor: default;
+    }
+  }
+
+}
